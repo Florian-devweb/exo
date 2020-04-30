@@ -1,0 +1,5 @@
+name,att1,att2,att3,att4,relation
+DogSitter , ID ,  name ,  City_ID  , Stroll_id ,1-N avec stroll,
+Dog       , ID ,  name ,  City_ID  , Stroll_id ,1-N avec stroll,
+Stroll    , ID ,  date ,  City_ID  ,           ,1-1 avec city,
+City      , ID ,  name ,           ,           ,             
